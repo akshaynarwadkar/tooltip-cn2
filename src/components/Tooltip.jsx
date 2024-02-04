@@ -9,7 +9,7 @@ const Tooltip = ({ children }) => {
       className="tooltip-container"
     >
       {children}
-      {isVisible && <div className="tooltip">Hello to Coding Ninja</div>}
+      {isVisible && <div className="tooltip">Hello to Coding Ninjas</div>}
     </div>
   );
 };
